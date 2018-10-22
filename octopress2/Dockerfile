@@ -1,6 +1,9 @@
 
 FROM ubuntu:14.04
 
+LABEL maintainer="benedict-chan@github"
+LABEL org.label-schema.url="https://github.com/benedict-chan/dockers/tree/master/octopress2"
+
 # Install.
 
 RUN apt-get update && \
