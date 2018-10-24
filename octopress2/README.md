@@ -1,3 +1,7 @@
+[![](https://images.microbadger.com/badges/image/benedictchan/octopress2.svg)](https://microbadger.com/images/benedictchan/octopress2 "Get your own image badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/benedictchan/octopress2.svg)](https://microbadger.com/images/benedictchan/octopress2 "Get your own version badge on microbadger.com")
+
 ### A DockerFile for setting up Octopress 2 environment
 
 This is not an optimized image. I just try to setup an environment to let me keep on using my old Octopress 2 blog.
