@@ -1,0 +1,14 @@
+version: '3.0'
+services:
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: mssql2017
+    ports:
+      - 1433:1433
+    volumes:
+      - C:/data/mssql/:/var/opt/mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "StrongPassword"
+      MSSQL_PID: Express
